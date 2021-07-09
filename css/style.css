@@ -90,7 +90,7 @@ ol, ul {margin: 0; padding: 0; list-style: none;}
 /* button background */
 .btn.btn-gold{background: #b2a369; border-color: #b2a369; color: #ffffff !important; transition: 1s;}
 .btn.btn-green:hover{background: #444444 !important; border-color: #444444; color: #ffffff !important; transition: 1s;}
-.btn.btn-cyan{color: #ffffff !important; flex: 1 1 auto;background-size: 200% auto; transition: 1s; background: #e02f46;}
+.btn.btn-cyan{color: #ffffff !important; flex: 1 1 auto;background-size: 200% auto; transition: 1s; background: #b2a369;}
 .btn.btn-cyan:hover{background: #26a5a2 !important; border-color: #26a5a2; color: #ffffff !important; transition: 1s;}
 
 /* button size */
@@ -1393,7 +1393,16 @@ input, select, textarea {margin :0;}
 /* ===================================
                Counters
 ====================================== */
-.bg-paralax0 { background: url(../img/sld7.jpg) no-repeat;
+.bg-paralax0 { background: url(../img/paralax.jpg) no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    padding: 5% !important;
+}
+
+.bg-paralax1 { background: url(../img/montenegrin-030.jpg) no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     background-size: cover;
@@ -1401,7 +1410,7 @@ input, select, textarea {margin :0;}
     width: 100%;
 }
 
-.bg-paralax1 { background: url(../img/sld4.jpg) no-repeat;
+.bg-paralax2 { background: url(../img/montenegrin-000.jpg) no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     background-size: cover;
@@ -1409,7 +1418,7 @@ input, select, textarea {margin :0;}
     width: 100%;
 }
 
-.bg-paralax2 { background: url(../img/sld5.jpg) no-repeat;
+.bg-paralax3 { background: url(../img/montenegrin-002.jpg) no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     background-size: cover;
@@ -1417,7 +1426,7 @@ input, select, textarea {margin :0;}
     width: 100%;
 }
 
-.bg-paralax3 { background: url(../img/sld6.jpg) no-repeat;
+.bg-paralax4 { background: url(../img/montenegrin-002.jpg) no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     background-size: cover;
@@ -1425,20 +1434,13 @@ input, select, textarea {margin :0;}
     width: 100%;
 }
 
-.bg-paralax4 { background: url(../img/sld8.jpg) no-repeat;
+.bg-paralax5 { background: url(../img/montenegrin-027.jpg) no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
     width: 100%;
-}
-
-.bg-paralax5 { background: url(../img/sld3.jpg) no-repeat;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    width: 100%;
+    padding: 5%;
 }
 
 .serial-box {text-align: center; }
