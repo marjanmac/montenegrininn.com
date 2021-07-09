@@ -2508,7 +2508,7 @@ a:hover {
 }
 .loader-wrapper {
     display: inline-block;
-    animation: mirrorflip 2s 0s linear infinite;
+    animation: mirrorflip 5s 0s linear infinite;
 }
 
 @keyframes mirrorflip {
@@ -3235,4 +3235,8 @@ Go Top CSS
     .pb-60 {
         padding-bottom: 0 !important;
     }
+}
+
+.shade {
+text-shadow: 2px 2px 0 #000, 4px 4px 0 #fff;
 }
