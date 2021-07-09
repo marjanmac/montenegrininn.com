@@ -89,7 +89,7 @@ ol, ul {margin: 0; padding: 0; list-style: none;}
 /* button background */
 .btn.btn-gold{background: #b2a369; border-color: #b2a369; color: #ffffff !important; transition: 1s;}
 .btn.btn-green:hover{background: #444444 !important; border-color: #444444; color: #ffffff !important; transition: 1s;}
-.btn.btn-pink{color: #ffffff !important; flex: 1 1 auto;background-size: 200% auto; transition: 1s; background: #e02f46;}
+.btn.btn-cyan{color: #ffffff !important; flex: 1 1 auto;background-size: 200% auto; transition: 1s; background: #e02f46;}
 .btn.btn-cyan:hover{background: #26a5a2 !important; border-color: #26a5a2; color: #ffffff !important; transition: 1s;}
 
 /* button size */
