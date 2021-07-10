@@ -7,11 +7,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700;800&display=swap');
 
 /* font family */
 
 .alt-font {    font-family: 'Roboto', sans-serif;}
 .main-font {   font-family: 'Bebas Neue', cursive;}
+.scrypt-font {   font-family: 'Pinyon Script', cursive;}
+.cyr-font {   font-family: 'Montserrat Alternates', sans-serif;}
 
 
 
@@ -1299,8 +1302,7 @@ input, select, textarea {margin :0;}
 .department-sub {font-size: 16px; margin-bottom: 20px;
     color: #7e8186; }
 .title-clr {color: #b2a369;}
-.department-title h2 {font-size: 48px; margin-bottom: 80px; font-weight: 400;
-    font-family: 'Bebas Neue', cursive;
+.department-title h2 {font-size: 48px; margin-bottom: 80px; font-weight: 300;;
 }
 
 .feature-item{
@@ -1459,8 +1461,8 @@ input, select, textarea {margin :0;}
 .portfolio-title h2 {
 font-size: 48px;
 margin-bottom: 20px;
-    font-weight: 400;
-    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 .portfolio-subtitle {
     font-size: 16px;
@@ -1542,8 +1544,8 @@ margin-bottom: 20px;
 .testimonial-title h2 {
     font-size: 48px;
     margin-bottom: 20px;
-    font-weight: 400;
-    font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 .testimonial-subtitle {
     font-size: 16px;
@@ -2330,7 +2332,7 @@ a:hover {
     margin-bottom: 1.2rem;
     color: #484b59;
     font-weight: 500;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Pinyon Script', cursive;
     line-height: 1.3;
 }
 
